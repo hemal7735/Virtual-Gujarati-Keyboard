@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+ 
+<div id="container">
+    <textarea id="write" rows="6" cols="60"></textarea>
+    <ul id="keyboard">
+    <!-- first row -->
+        <li class="symbol"><span class="off">&#x0A80;</span><span class="on">&#x0AE0;</span></li>
+        <li class="symbol"><span class="off">&#x0AE6;</span><span class="on">&#x0A8D;</span></li>
+        <li class="symbol"><span class="off">&#x0AE7;</span><span class="on">&#x0AC5;</span></li>
+        <li class="symbol"><span class="off">&#x0AE8;</span><span class="on">&#x0ACD;&#x0AB0;</span></li>
+        <li class="symbol"><span class="off">&#x0AE9;</span><span class="on">&#x0AB0;&#x0ACD;</span></li>
+        <li class="symbol"><span class="off">&#x0AEA;</span><span class="on">&#x0A9C;&#x0ACD;&#x0A9E;</span></li>
+        <li class="symbol"><span class="off">&#x0AEB;</span><span class="on">&#x0AA4;&#x0ACD;&#x0AB0;</span></li>
+        <li class="symbol"><span class="off">&#x0AEC;</span><span class="on">&#x0A95;&#x0ACD;&#x0AB7;</span></li>
+        <li class="symbol"><span class="off">&#x0AED;</span><span class="on">&#x0AB6;&#x0ACD;&#x0AB0;</span></li>
+        <li class="symbol"><span class="off">&#x0AEE;</span><span class="on">(</span></li>
+        <li class="symbol"><span class="off">&#x0AEF;</span><span class="on">)</span></li>
+        <li class="symbol"><span class="off">-</span><span class="on">&#x0A83;</span></li>
+        <li class="symbol"><span class="off">&#x0AC3;</span><span class="on">&#x0A8B;</span></li>
+        <li class="delete lastitem">backspace</li>
+        
+    <!--Second row-->
+        <li class="tab">tab</li>
+        <li class="symbol"><span class="off">&#x0ACC;</span><span class="on">&#x0A94;</span></li>
+        <li class="symbol"><span class="off">&#x0AC8;</span><span class="on">&#x0A90;</span></li>
+        <li class="symbol"><span class="off">&#x0ABE;</span><span class="on">&#x0A86;</span></li>
+        <li class="symbol"><span class="off">&#x0AC0;</span><span class="on">&#x0A88;</span></li>
+        <li class="symbol"><span class="off">&#x0AC2;</span><span class="on">&#x0A8A;</span></li>
+        <li class="symbol"><span class="off">&#x0AAC;</span><span class="on">&#x0AAD;</span></li>
+        <li class="symbol"><span class="off">&#x0AB9;</span><span class="on">&#x0A99;</span></li>
+        <li class="symbol"><span class="off">&#x0A97;</span><span class="on">&#x0A98;</span></li>
+        <li class="symbol"><span class="off">&#x0AA6;</span><span class="on">&#x0AA7;</span></li>
+        <li class="symbol"><span class="off">&#x0A9C;</span><span class="on">&#x0A9D;</span></li>
+        <li class="symbol"><span class="off">&#x0AA1;</span><span class="on">&#x0AA2;</span></li>
+        <li class="symbol"><span class="off">&#x0ABC;</span><span class="on">&#x0A97;</span></li>
+        <li class="symbol lastitem"><span class="off">&#x0AC9;</span><span class="on">&#x0A91;</span></li>
+        
+    <!--Third row-->
+        <li class="capslock">caps lock</li>
+        <li class="symbol"><span class="off">&#x0ACB;</span><span class="on">&#x0A93;</span></li>
+        <li class="symbol"><span class="off">&#x0AC7;</span><span class="on">&#x0A8F;</span></li>
+        <li class="symbol"><span class="off">&#x0ACD;</span><span class="on">&#x0A85;</span></li>
+        <li class="symbol"><span class="off">&#x0ABF;</span><span class="on">&#x0A87;</span></li>
+        <li class="symbol"><span class="off">&#x0AC1;</span><span class="on">&#x0A89;</span></li>
+        <li class="symbol"><span class="off">&#x0AAA;</span><span class="on">&#x0AAB;</span></li>
+        <li class="symbol"><span class="off">&#x0AB0;</span><span class="on">&#x0A96;</span></li>
+        <li class="symbol"><span class="off">&#x0A95;</span><span class="on">&#x0AA5;</span></li>
+        <li class="symbol"><span class="off">&#x0AA4;</span><span class="on">&#x0A9B;</span></li>
+        <li class="symbol"><span class="off">;</span><span class="on">:</span></li>
+        <li class="symbol"><span class="off">'</span><span class="on">&quot;</span></li>
+        <li class="return lastitem">return</li>
+
+    <!-- fourth and last row -->
+        <li class="left-shift">shift</li>
+        <li class="symbol"><span class="off">&#x0A9A;</span><span class="on">&#x0AD0;</span></li>
+        <li class="symbol"><span class="off">&#x0A82;</span><span class="on">&#x0A81;</span></li>
+        <li class="symbol"><span class="off">&#x0AAE;</span><span class="on">&#x0AA3;</span></li>
+        <li class="symbol"><span class="off">&#x0AA8;</span><span class="on">&#x0ABD;</span></li>
+        <li class="symbol"><span class="off">&#x0AB5;</span><span class="on">&#x0A9F;</span></li>
+        <li class="symbol"><span class="off">&#x0AB2;</span><span class="on">&#x0AB3;</span></li>
+        <li class="symbol"><span class="off">&#x0AB8;</span><span class="on">&#x0AB6;</span></li>
+        <li class="symbol"><span class="off">,</span><span class="on">&#x0AB7;</span></li>
+        <li class="symbol"><span class="off">.</span><span class="on">&#xAA0;</span></li>
+        <li class="symbol"><span class="off">&#x0AAF;</span><span class="on">?</span></li>
+        <li class="right-shift lastitem">shift</li>
+        <li class="space lastitem">&nbsp;</li>
+    </ul>
+</div>
+ 
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
