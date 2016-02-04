@@ -22,6 +22,11 @@ But the **problem** with the modes of the Keyboard provided by Google Translator
   
     This can be solved by inserting ***Ctrl+Alt Mode*** keys at the blank spaces of ***Normal Mode*** and ***Shift Mode***, which leads to the reduction in number of modes. 
 
+##Contributors
+
+Everyone is welcome to contribute to this project, and helping it to be a full-fledged extension of Browsers like Chrome, Firefox etc.
+
 ## Reference
 
 **Base Keyboard Layout**: Google Translator's Courtesy. 
+
