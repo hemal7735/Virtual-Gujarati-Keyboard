@@ -6,7 +6,6 @@ This is a Virtual Gujarati Keyboard. It is a base prototype of Gujarati Keyboard
 
 Google Translator provides an excellent Gujarati-Keyboard with 3 modes.
 1. Normal Mode
-    Keys are displayed directly.
 2. Shift Mode
 3. Ctrl+Alt Mode
 
