@@ -5,9 +5,9 @@ This is a Virtual Gujarati Keyboard. It is a base prototype of Gujarati Keyboard
 ## Motivation
 
 Google Translator provides an excellent Gujarati-Keyboard with 3 modes.
-1. Normal
-2. With Shift
-3. With Ctrl+Alt
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
 
 ## Reference
 
