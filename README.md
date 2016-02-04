@@ -4,4 +4,4 @@ This is a Virtual Gujarati Keyboard. It is a base prototype of Gujarati Keyboard
 
 ## Reference
 
-Base Keyboard Layout: Google Translator's Courtesy. 
+**Base Keyboard Layout**: Google Translator's Courtesy. 
